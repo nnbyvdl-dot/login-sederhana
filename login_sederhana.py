@@ -5,11 +5,11 @@ while kesempatan > 0:
     password = input("Masukkan password: ")
 
     if username == "Michelle" and password == "01234*#":
-        print("Login berhasil")
+        print("Login berhasil!")
         break
     else:
         kesempatan -= 1
         print("Login gagal. Sisa kesempatan:", kesempatan)
 
 if kesempatan == 0:
-    print("Akun diblokir")
+    print("Akun diblokir!")
